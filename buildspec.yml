@@ -7,7 +7,8 @@ phases:
         commands:
             - echo "installing something"
     pre_build:
-        commands: 
+        commands:
+            - printenv
             - echo "we are in the pre build phase"
     build:
         commands:
